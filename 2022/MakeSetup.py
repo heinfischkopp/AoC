@@ -6,7 +6,7 @@ pfad =str(Path(os.path.dirname(os.path.realpath(__file__))))
 template = pfad + os.sep +"template.py"
 
 for i in range(1,3):
-    file =  pfad + "\\day" + str(i) + "_input.txt"
+    file =  pfad + os.sep + "day" + str(i) + "_input.txt"
     if os.path.exists(file):
         print("skipping day %s's Input" %(i))
     else:
