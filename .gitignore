@@ -1,15 +1,3 @@
-2019/.spyproject/config/codestyle.ini
-2019/.spyproject/config/encoding.ini
-2019/.spyproject/config/vcs.ini
-2019/.spyproject/config/workspace.ini
-2019/.spyproject/config/backups/codestyle.ini.bak
-2019/.spyproject/config/backups/encoding.ini.bak
-2019/.spyproject/config/backups/vcs.ini.bak
-2019/.spyproject/config/backups/workspace.ini.bak
-2019/.spyproject/config/defaults/defaults-codestyle-0.2.0.ini
-2019/.spyproject/config/defaults/defaults-encoding-0.2.0.ini
-2019/.spyproject/config/defaults/defaults-vcs-0.2.0.ini
-2019/.spyproject/config/defaults/defaults-workspace-0.2.0.ini
 Advent of Code/.vscode/launch.json
 */day*_input.txt
 2019/*/*input.txt
