@@ -11,8 +11,7 @@
 2019/.spyproject/config/defaults/defaults-vcs-0.2.0.ini
 2019/.spyproject/config/defaults/defaults-workspace-0.2.0.ini
 Advent of Code/.vscode/launch.json
-2014/day*_input.txt
+*/day*_input.txt
 2019/*/*input.txt
 2021/*/input.txt
-2022/day*_input.txt
 */__pycache__/*
