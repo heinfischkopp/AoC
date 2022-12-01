@@ -13,4 +13,5 @@
 Advent of Code/.vscode/launch.json
 2019/*/*input.txt
 2021/*/input.txt
-2022/*_input.txt
+2022/day*_input.txt
+2022/__pycache__/*

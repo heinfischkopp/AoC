@@ -1,6 +1,6 @@
 import MyTools
 
-puzzle = MyTools.AoC(1,0)
+puzzle = MyTools.AoC(1)
 
 elvkal = []
 n = 0

@@ -14,12 +14,12 @@ class Timer(object):
         print('Zeit: %s' % (time.time() - self.tstart))
 
 class AoC:
-    def __init__(self, day=0,TestDaten = False):
+    def __init__(self, day=0,TestDaten = True):
         self.day = day
         if TestDaten:
-            self.puzzlefile = os.path.dirname(__file__) + '\\day' + str(self.day) + '_input.txt'
+            self.puzzlefile = os.path.dirname(__file__) + os.sep +'day' + str(self.day) + '_input.txt'
         else:
-            self.puzzlefile = os.path.dirname(__file__) + '\\day' + str(self.day) + '_testdata.txt'
+            self.puzzlefile = os.path.dirname(__file__) + os.sep +'day' + str(self.day) + '_testdata.txt'
         self.tstart = time.time()
         self.puzzle = 'A'
 
