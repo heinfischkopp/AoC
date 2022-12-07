@@ -42,8 +42,8 @@ class myfile:
         s = [float("inf")]
         if self.size > freespaceneeded:
             s.append(self.size)
-        for d in self.children.values():
-            s.append(d.puzzleB(freespaceneeded))
+            for d in self.children.values():
+                s.append(d.puzzleB(freespaceneeded))
         return min(s)
 
 root=myfile("/",None)
@@ -66,4 +66,4 @@ while i < len(lines):
     i+=1
 
 puzzle.solution(root.puzzleA())
-puzzle.solution(root.puzzleB(30000000-(70000000-root.getSize())))
+puzzle.solution(root.puzzleB(30000000-(70000000-root.size)))
